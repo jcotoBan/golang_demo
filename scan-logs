@@ -1,0 +1,19 @@
+{"level":"info","version":"1.9.0","commit":"b51c751","time":"2024-10-01T12:23:11-06:00","message":"Starting analysis with Sysdig scanner"}
+{"level":"info","time":"2024-10-01T12:23:11-06:00","message":"Using path for the cache: /Users/juancarlos.coto/Library/Caches/inlineScannerCache.db"}
+{"level":"info","time":"2024-10-01T12:23:11-06:00","message":"Using default vulnerability db version: V2"}
+{"level":"info","time":"2024-10-01T12:23:11-06:00","message":"Retrieving MainDB"}
+{"level":"info","time":"2024-10-01T12:23:11-06:00","message":"Using local MainDB located at /usr/local/bin/main.db/sysdig-db-data since it is already up to date"}
+{"level":"info","time":"2024-10-01T12:23:11-06:00","message":"Using cached DB file on path /usr/local/bin/main.db/sysdig-db-data"}
+{"level":"info","time":"2024-10-01T12:23:11-06:00","message":"Loading MainDB from: /usr/local/bin/main.db/sysdig-db-data"}
+{"level":"info","time":"2024-10-01T12:23:11-06:00","message":"Done: MainDB loaded"}
+{"level":"info","time":"2024-10-01T12:23:11-06:00","message":"GET pkgMeta indexedAt on index changed from 0001-01-01 00:00:00 +0000 UTC to 2024-09-26 16:47:09.329 +0000 UTC on GetPkgMetaIndexedAt"}
+{"level":"info","imgName":"docker://sysdig-build-and-scan-u61ksv","time":"2024-10-01T12:23:11-06:00","message":"Retrieving image"}
+{"level":"info","imgName":"docker://sysdig-build-and-scan-u61ksv","time":"2024-10-01T12:23:14-06:00","message":"Done: image retrieved"}
+{"level":"info","time":"2024-10-01T12:23:14-06:00","message":"Start analyzing image"}
+{"level":"info","time":"2024-10-01T12:23:15-06:00","message":"Start matching vulnerabilities"}
+{"level":"info","time":"2024-10-01T12:23:15-06:00","message":"Matched 17 packages"}
+{"level":"info","time":"2024-10-01T12:23:15-06:00","message":"Start policies evaluation"}
+{"level":"info","result":"noPolicy","time":"2024-10-01T12:23:15-06:00","message":"End policies evaluation"}
+{"level":"info","time":"2024-10-01T12:23:15-06:00","message":"Start risks acceptance evaluation"}
+{"level":"warn","time":"2024-10-01T12:23:15-06:00","message":"No policies to evaluate, will not upload result"}
+{"level":"info","duration":"4.666712833s","time":"2024-10-01T12:23:15-06:00","message":"Done"}
